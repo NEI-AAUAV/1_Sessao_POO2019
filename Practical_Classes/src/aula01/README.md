@@ -4,4 +4,4 @@ Resolução de todos os exercícios do guião 1 de Programação Orientada a Obj
 
 ## Criadores
 
-* 80204 - [Miguel Alves](https://github.com/miguelfradinho)
+*Não aplicável, ficheiros fornecidos pelo(s) professor(es).*
