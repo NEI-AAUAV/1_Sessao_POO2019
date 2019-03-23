@@ -6,4 +6,5 @@ Sessão de estudo organizada pelo NEI-AAUAv no dia 26 de março de 2019.
 * Download repositório: [Download](https://github.com/NEI-AAUAV/1_Sessao_POO2019/archive/master.zip)
 
 ## Colaboradores
+* [Rui Coelho](https://github.com/user-cube)
 * [Miguel Alves](https://github.com/miguelfradinho)
