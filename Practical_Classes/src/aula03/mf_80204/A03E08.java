@@ -2,11 +2,6 @@ package aula03.mf_80204;
 
 import java.util.Random;
 
-import java.util.Scanner;
-import java.util.concurrent.ThreadLocalRandom;
-
-import com.sun.xml.internal.fastinfoset.Notation;
-
 // Miguel Fradinho Alves - 80204
 /*
  * Exercício 3.8 - Pauta de Notas
@@ -26,8 +21,8 @@ public class A03E08 {
         double[][] notas = new double[16][2];
         // Gerar as notas aleatórias
         //
-        // notas[i][0]  - Nota Teórica
-        // notas[i][0]  - Nota Prática
+        // notas[i][0] - Nota Teórica
+        // notas[i][0] - Nota Prática
         for (int i = 0; i < notas.length; i++) {
             // Neste caso, optamos por multiplicar por 21, mas seria mais correto
             // multiplicar por algo como 20 + 0.0000001, pois como estamos a reduzir todos
@@ -52,11 +47,11 @@ public class A03E08 {
         // Agora, vamos a cada uma das notas e imprimimos
         for (int i = 0; i < notas.length; i++) {
             // Variável temporária onde vamos guardar a nota a imprimir
-            // Nota: tem que ser do tipo long porque Math.round() devolve um long 
+            // Nota: tem que ser do tipo long porque Math.round() devolve um long
             long notaPauta;
             double notaT = notas[i][0];
             double notaP = notas[i][1];
-            
+
             // Caso o aluno tenha reprovado por nota mínima, a nota da pauta é 66
             if (notaT < 7 || notaP < 7) {
                 notaPauta = 66L;
