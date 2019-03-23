@@ -17,10 +17,19 @@ public class Ex4_4 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        String value1 = "Ano: ", value2 = "Mês: ", 
+                value3="1 = Segunda\n"
+                + "2 = Terça\n"
+                + "3 = Quarta\n"
+                + "4 = Quinta\n"
+                + "5 = Sexta\n"
+                + "6 = Sábado\n"
+                + "7 = Domingo\n"
+                + "Dia em que começa: ";
         
-        int ano = reader();
-        int mes = reader();
-        int dia = reader();
+        int ano = reader(value1);
+        int mes = reader(value2);
+        int dia = reader(value3);
         
         printCalendar(ano, mes, dia);
     
@@ -32,8 +41,8 @@ public class Ex4_4 {
      * 
      * @return readValue - Valor introduzido pelo utilizador.
      */
-    public static int reader(){
-        
+    public static int reader(String value){
+        System.out.print(value);
         Scanner sc = new Scanner(System.in);
         int readValue = sc.nextInt();
         return readValue;
