@@ -20,9 +20,9 @@ public class Main_Ponto_Const {
         
         /**
          * Declaração das variáveis:
-         *  d  - Distância
+         *  distancia  - Distância entre os dois pontos.
          */
-        double d;
+        double distancia;
         
         
         Ponto_Gen p1 = new Ponto_Gen();
@@ -36,9 +36,9 @@ public class Main_Ponto_Const {
          * Fórmula da distância entre pontos: d = sqrt((x2-x1)^2 + (y2 - y1)^2)
          */
         
-        d = Math.sqrt(Math.pow(p2.getX()-p1.getX(), 2) + Math.pow(p2.getY()-p1.getY(), 2));
+        distancia = Math.sqrt(Math.pow(p2.getX()-p1.getX(), 2) + Math.pow(p2.getY()-p1.getY(), 2));
         
-        System.out.println("Distância: " + d);
+        System.out.println("Distância: " + distancia);
     }
     
 }

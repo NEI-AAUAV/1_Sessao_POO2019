@@ -29,13 +29,13 @@ public class Ex2_7 {
         
         /**
          * Declaração das variáveis:
-         *  x1 - Coordenada x do ponto 1
-         *  x2 - Coordenada x do ponto 2
-         *  y1 - Coordenada y do ponto 1
-         *  y2 - Coordenada y do ponto 2
-         *  d  - Distância
+         *  x1         - Coordenada x do ponto 1
+         *  x2         - Coordenada x do ponto 2
+         *  y1         - Coordenada y do ponto 1
+         *  y2         - Coordenada y do ponto 2
+         *  distancia  - Distância entre pontos
          */
-        double x1, x2, y1, y2, d;
+        double x1, x2, y1, y2, distancia;
         
         System.out.print("Coordenada X1: ");
         x1 = sc.nextDouble(); // Lê coordenada x1
@@ -57,9 +57,9 @@ public class Ex2_7 {
          * Fórmula da distância entre pontos: d = sqrt((x2-x1)^2 + (y2 - y1)^2)
          */
         
-        d = Math.sqrt(Math.pow(x2-x1, 2) + Math.pow(y2-y1, 2));
+        distancia = Math.sqrt(Math.pow(x2-x1, 2) + Math.pow(y2-y1, 2));
         
-        System.out.println("Distância: " + d);
+        System.out.println("Distância: " + distancia);
         
         /**
          * Fecha o scanner.
