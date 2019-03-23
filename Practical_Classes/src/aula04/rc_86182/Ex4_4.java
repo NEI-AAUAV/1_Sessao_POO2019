@@ -39,6 +39,7 @@ public class Ex4_4 {
      * Função que lê o ano, mês e dia 
      * após introdução por parte do utilizador.
      * 
+     * @param value - Texto de ajuda a ser impresso
      * @return readValue - Valor introduzido pelo utilizador.
      */
     public static int reader(String value){
