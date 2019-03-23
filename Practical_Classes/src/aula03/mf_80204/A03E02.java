@@ -12,7 +12,7 @@ import java.util.Scanner;
  * bonitito.
  * 
  * 
- * Desafio Extra:
+ * Desafio Extra 1 (Médio):
  * A contagem decrescrente neste momento é muito rápida (os processadores são mais rápidos que nós).
  * E se fizessemos uma contagem decrescente em que esperava 1 segundo de cada vez?
  * 
