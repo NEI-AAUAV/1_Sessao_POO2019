@@ -5,6 +5,8 @@
  */
 package aula02.rc_86182;
 
+import java.util.Scanner;
+
 /**
  * Implementação da distância entre pontos 
  * com criação e representação do ponto.
@@ -19,14 +21,37 @@ public class Main_Ponto {
     public static void main(String[] args) {
         
         /**
+         * Scanner que irá ler todos os dados necessários.
+         * 
+         * Nota: Não é necessário abrir mais que um Scanner para 
+         *       ler vários dados, podemos usar sempre o mesmo.
+         */
+        Scanner sc = new Scanner(System.in);
+        
+        /**
          * Declaração das variáveis:
+         *  x1 - Coordenada x do ponto 1
+         *  x2 - Coordenada x do ponto 2
+         *  y1 - Coordenada y do ponto 1
+         *  y2 - Coordenada y do ponto 2
          *  d  - Distância
          */
-        double d;
+        double x1, x2, y1, y2, d;
         
+        System.out.print("Coordenada X1: ");
+        x1 = sc.nextDouble(); // Lê coordenada x1
         
-        Ponto p1 = new Ponto();
-        Ponto p2 = new Ponto();
+        System.out.print("Coordenada Y1: ");
+        y1 = sc.nextDouble(); // Lê coordenada y1
+        
+        System.out.print("Coordenada X2: ");
+        x2 = sc.nextDouble(); // Lê coordenada x2
+        
+        System.out.print("Coordenada Y2: ");
+        y2 = sc.nextDouble(); // Lê coordenada y2
+        
+        Ponto p1 = new Ponto(x1, y1);
+        Ponto p2 = new Ponto(x2, y2);
         
         /**
          * Notas:
