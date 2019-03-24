@@ -12,5 +12,5 @@ Sessão de estudo organizada pelo NEI-AAUAv no dia 26 de março de 2019.
 * [Daniel Nunes](https://github.com/danielfbnunes)
 * [Tiago Mendes](https://github.com/tiagocmendes)
 * [Rafael Direito](https://github.com/rafadireito)
-* Catarina Xavier
+* [Catarina Xavier](https://github.com/catarinamargxavier)
 * André Brandão
