@@ -8,3 +8,4 @@ Sessão de estudo organizada pelo NEI-AAUAv no dia 26 de março de 2019.
 ## Colaboradores
 * [Rui Coelho](https://github.com/user-cube)
 * [Miguel Alves](https://github.com/miguelfradinho)
+* [Jo�o Rodrigues](https://github.com/joaosilva9)
