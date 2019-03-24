@@ -1,7 +1,10 @@
 package aula05.mf_80204;
 
 /**
- * Classe para representar um Círculo, "caracterizado por um centro e raio"
+ * Classe para representar um Círculo, "caracterizado por um centro e raio", utilizado no Exercício 5.1.
+ * 
+ * 
+ * .equals() e .hashCode() gerados pelo Eclipse
  * 
  * @author Miguel Fradinho Alves - 80204
  *

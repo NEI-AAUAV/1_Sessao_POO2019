@@ -2,7 +2,10 @@ package aula05.mf_80204;
 
 /**
  * Classe para representar um Triângulo, "caracterizado por dimensão dos seus
- * lados (lado1, lado2 e lado3)"
+ * lados (lado1, lado2 e lado3)", utilizado no Exercício 5.1.
+ * 
+ * 
+ * .equals() e .hashCode() gerados pelo Eclipse
  * 
  * @author Miguel Fradinho Alves - 80204
  *

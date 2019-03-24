@@ -2,7 +2,10 @@ package aula05.mf_80204;
 
 /**
  * Classe para representar um Ponto num espaço a 2 dimensões. Modelado tal como
- * explícito no enunicado
+ * explícito no enunciado do Exercício 5.1.
+ * 
+ * 
+ * .equals() e .hashCode() gerados pelo Eclipse
  * 
  * @author Miguel Fradinho Alves - 80204
  *

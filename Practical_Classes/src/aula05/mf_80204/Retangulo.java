@@ -2,7 +2,10 @@ package aula05.mf_80204;
 
 /**
  * Classe para representar um Retângulo, "caracterizado por comprimento e
- * altura"
+ * altura", utilizado no Exercício 5.1.
+ * 
+ * 
+ * .equals() e .hashCode() gerados pelo Eclipse
  * 
  * @author Miguel Fradinho Alves - 80204
  *
@@ -74,6 +77,7 @@ public class Retangulo {
 
     /**
      * Calcula a área do Retângulo
+     * 
      * @return área do Retângulo
      */
     public double calcArea() {
