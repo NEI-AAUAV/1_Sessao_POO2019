@@ -15,7 +15,7 @@ import java.util.Scanner;
  * 
  * Após termos lido o primeiro número, quando estamos a ler os restantes, existe
  * alguma repetição do código, pois não estamos a ler todos os números novos
- * dentro do ciclo (a primeira vezque lemos um número novo, é feita fora do
+ * dentro do ciclo (a primeira vez que lemos um número novo, é feita fora do
  * ciclo).
  * 
  * Como podemos ler todos os novos números dentro do ciclo?
@@ -27,7 +27,9 @@ import java.util.Scanner;
  * Desafio Extra 2 (Díficil):
  * 
  * Atualmente não estamos a guardar a lista dos números lidos.
+ * 
  * Altera o programa para imprimir a lista dos números lidos.
+ * 
  * Faz as alterações que achares necessárias.
  * 
  */

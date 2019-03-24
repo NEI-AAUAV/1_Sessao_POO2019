@@ -106,9 +106,11 @@ public class A03E06 {
         // Agora que sabemos o ano, podemos saber se ele é bissexto ou não
         if (ano % 400 == 0) {
             bissexto = true;
-        } else if ((ano % 4 == 0) && (ano % 100 != 0)) {
+        }
+        else if ((ano % 4 == 0) && (ano % 100 != 0)) {
             bissexto = true;
-        } else {
+        }
+        else {
             bissexto = false;
         }
 

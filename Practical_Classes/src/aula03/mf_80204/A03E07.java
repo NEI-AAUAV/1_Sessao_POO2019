@@ -40,7 +40,7 @@ import java.util.Scanner;
  * 
  * Faz as alterações que achares necessárias
  * 
- * Dica: Começa por rescrever os ciclos do-while em ciclos while. 
+ * Dica: Começa por rescrever os ciclos do-while em ciclos while.
  * 
  * Semelhante ao Desafio Extra 1 do Exercício 3.4.
  * 
@@ -90,14 +90,16 @@ public class A03E07 {
                     System.out.println("Demasiado alto! Tenta outra vez!");
                 }
                 // vamos estar a pedir ao utilizador um número enquanto ele não acertar
-            } while (tentativa != numeroEscolhido);
+            }
+            while (tentativa != numeroEscolhido);
 
             // Saímos do ciclo, por isso a tentativa está certa
             System.out.println("Certo! Número de tentativas: " + totalTentativas);
             // Perguntamos se o utilizador quer continuar
             System.out.println("Pretende continuar? Prima (S)im");
             continuarAJogar = sc.next();
-        } while (continuarAJogar.equals("Sim") || continuarAJogar.equals("S"));
+        }
+        while (continuarAJogar.equals("Sim") || continuarAJogar.equals("S"));
 
         // estamos a terminar o programa, por isso já não vamos precisar mais do Scanner
         sc.close();

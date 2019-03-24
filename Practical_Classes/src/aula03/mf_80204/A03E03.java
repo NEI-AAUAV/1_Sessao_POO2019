@@ -37,7 +37,8 @@ public class A03E03 {
         do {
             System.out.println("Número: ");
             num = sc.nextInt();
-        } while (num < 0);
+        }
+        while (num < 0);
         // fechamos o Scanner porque já não vamos ler mais
         sc.close();
 
