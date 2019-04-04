@@ -5,3 +5,4 @@ Resolução de todos os exercícios do guião 5 de Programação Orientada a Obj
 ## Criadores
 
 * 86182 - [Rui Coelho](https://github.com/user-cube)
+* 80204 - [Miguel Fradinho](https://github.com/miguelfradinho)
