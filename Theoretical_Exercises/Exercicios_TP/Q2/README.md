@@ -42,10 +42,31 @@ public class PrintNumbers {
 1. Trocar o `int i = 1` para `int i = 0`
 2. Substituir o `i` no print por `3*i+1`, ficando `System.out.println(3*i+1)`.
 
-## 4. Escreva um ciclo que imprima a números de 1 a 10.
+```java
+public class PrintNumbers {
+    public static void main(String[] args) {
+        for(int i = 0; i <= 10; i++) {
+            System.out.println(3*i+1);
+        }
+    }
+}
+```
+Uma outra solução seria começar o ciclo em 1 (`int i = 1`), colocarmos uma condição de paragem que termina em 31 (`i<=31`) e incrementar o i em 3, isto é, `i+=3`:
+```java
+public class PrintNumbers {
+    public static void main(String[] args) {
+        for(int i = 1; i <= 31; i+=3) {
+            System.out.println(i);
+        }
+    }
+}
+```
+
+## 4. Escreva um ciclo que calcule a soma dos números de 1 a 10.
 ```java
 int sum = 0;
-for(int i = 1; i < 11; i++) {
+for(int i = 1; i <= 10; i++) {
     sum = sum + i;
 }
+System.out.println(sum);
 ```
